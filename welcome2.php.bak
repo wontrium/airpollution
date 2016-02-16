@@ -14,7 +14,7 @@
 	
 	<div data-role="page" id="page-home">			
 		<div data-role="header" data-position="fixed">
-		<a href="alert.php" data-role = "button "data-iconpos="top" data-icon="features"  >การเเจ้งเตือนต่างๆ<span class="ui-li-count"></span></a></li>	
+		<a data-role = "button" data-icon = "plus" href="alert.php"> การเเจ้งเตือนต่างๆ </a>
 			<h1>ระบบประเมินมลภาวะทางอากาศ(Air pollution)</h1>				
 		</div>
 		<div data-role="content">						
@@ -34,7 +34,7 @@ echo $_POST["Name"]."<br>";
 				<br>							
 				<a data-role = "button" data-icon = "arrow-r" href="index.html"> การเเจ้งเตือนพื้นที่เสี่ยง</a>
 				<br>							
-				<a data-role = "button" data-icon = "arrow-r" href="index.html"> กราฟวิเคราะห์ข้อมูล </a>
+				<a data-role = "button" data-icon = "arrow-r" href="graph.php"> กราฟวิเคราะห์ข้อมูล </a>
 				<br>							
 				<a data-role = "button" data-icon = "home" href="index.html"> ออกจากระบบ </a>
 			</ul>

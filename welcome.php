@@ -32,7 +32,7 @@ echo $_GET["Name"]."<br>";
 				<input type="submit" name="Submit" value="เริ่มทำเเบบประเมิน" data-icon = "arrow-r">
 				<!--<a data-role = "button" data-icon = "gear" href="userpage.php?"> เริ่มทำเเบบประเมิน </a>-->
 				<br>							
-				<a data-role = "button" data-icon = "arrow-r" href="index.html"> การเเจ้งเตือนพื้นที่เสี่ยง</a>
+				<a data-role = "button" data-icon = "arrow-r" href="map.php"> การเเจ้งเตือนพื้นที่เสี่ยง</a>
 				<br>							
 				<a data-role = "button" data-icon = "arrow-r" href="graph.php"> กราฟวิเคราะห์ข้อมูล </a>
 				<br>							
